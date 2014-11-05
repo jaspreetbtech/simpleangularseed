@@ -1,4 +1,11 @@
-var app = angular.module('practise', []);
-app.controller('TodoCtrl', function($scope) {
- $scope.message = 'Angular is pretty cool.';
+/*angular.module('practise', [])
+.controller('MyCtrl', function($scope) {
+  $scope.message = 'jassi';
+});*/
+angular.module('practise.ctrl', []).
+controller('Ctrl', function($scope , numberValue , stringValue,objectValue) {
+  $scope.message = 'jassi';
+    console.log(numberValue);
+    console.log(stringValue);
+    console.log(objectValue);
 });
