@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script> 
+</head> 
+<body> 
+<div ng-app="practise">
+ 	<p>Name: <input type="text" ng-model="name"></p>
+ 	<p ng-bind="name"></p>
+ 
+<!-- <div class="page-container" ng-controller="Ctrl">
+	{{message}}
+</div> 
+  <div class="page-container" ng-controller="MyCtrl">
+	{{message1}}
+</div>  -->
+
+<div ng-controller="HelloController" >
+
+      <h2>Hello {{helloTo.title}} !</h2>
+
+  </div>
+  <div ng-controller="HiController" >
+
+      <h2>{{hi}} !</h2>
+
+  </div>
+  <div ng-controller="ByeController" >
+
+      <h2>{{bye}} !</h2>
+
+  </div>
+
+</div> 
+</body> 
+<script src="app.js"></script>
+<!-- <script src="mycontroller.js"></script>
+<script src="controller.js"></script>  -->
+</html>
