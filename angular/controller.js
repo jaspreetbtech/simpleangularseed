@@ -1,8 +1,5 @@
-/*angular.module('practise', [])
-.controller('MyCtrl', function($scope) {
-  $scope.message = 'jassi';
-});*/
-angular.module('practise.ctrl', []).
+ 
+angular.module('practise.Ctrl', []).
 controller('Ctrl', function($scope , numberValue , stringValue,objectValue) {
   $scope.message = 'jassi';
     console.log(numberValue);

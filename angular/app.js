@@ -1,4 +1,4 @@
-var myApp =angular.module('practise', ['practise.ctrl','practise.myctrl']);
+var myApp =angular.module('practise', ['practise.MyCtrl', 'practise.Ctrl']);
 
 myApp.value("numberValue", 999);
 
